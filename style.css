@@ -18,7 +18,9 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    margin:50px 500px 50px 500px;
+    max-width: 500px;
+    /* margin:50px 500px 50px 500px; */
+    margin: 0 auto;
     padding: 30px;
 }
 .text, .list-1,.list-2, .list-3, .list-4 {
@@ -51,14 +53,15 @@ padding: 10px 30px;
 margin: 0;
 border-radius: 10px;
 } 
-span,h3,h4{
+span,h3,.preparation{
     color: hsl(14, 45%, 36%);
 }
-h4{
+.preparation{
    color: hsl(332, 51%, 36%);
+   font-weight: 800;
 }
 .value, .list-3, .list-2{
-    border-bottom: 0.5px rgb(247, 230, 207) solid;
+    border-bottom: 1px rgb(247, 230, 207) solid;
 }
 .value, .no-divider{
     padding: 5px 0 ;
