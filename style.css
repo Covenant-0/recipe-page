@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&disply=swap");
 body {
     margin: 0;
     justify-content: center;
@@ -10,6 +11,8 @@ body {
     display: flex;
     min-height: 100vh;
     background-color: rgb(247, 230, 207);
+    font-family: "Young Serif", serif;
+    font-family: "Outfit", sans-serif;
 }
 .container {
     border-radius: 10px;
@@ -47,7 +50,7 @@ img{
     margin: 0;
 }
  .list-1{
-background-color:hsl(30, 54%, 90%) ;
+background-color:hsl(330, 100%, 98%) ;
 width:100%;
 padding: 10px 30px;
 margin: 0;
